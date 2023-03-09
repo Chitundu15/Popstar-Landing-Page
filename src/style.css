@@ -2,27 +2,18 @@ body{
     background-color:#fbf0e5;
     text-align: center;
     font-family: 'Roboto Slab', serif;
-    background-image: url(./Untitled\ design.svg);
     background-size: 400px;
+    background-repeat: no-repeat;
     }
 section{
     background-color: #fbf0e5;
+    background-image: url(./Untitled\ design.svg);
+    
+    background-size: contain;
+
 }
-.spotify-link{
-    text-decoration: none;
-    background-color: #C98E6A;
-    padding: 20px;
-    border-radius: 10px;
-    color: antiquewhite;    
-}
-.spotify-link:hover{
-    color: #C98E6A;
-    background-color: antiquewhite;
-}
-.card{
-    margin: 0px auto;
-    padding: 20px 50px;
-    max-width: 60%;
+article{
+    margin: 20px;
 }
 h1{
     font-family: 'Space Grotesk', sans-serif;
@@ -35,6 +26,36 @@ h6{
     text-align: left;
     font-size: 8px;
 }
-article{
-    margin: 20px;
+.navbar-nav{
+    color: #C98E6A;
+}
+.spotify-link{
+    text-decoration: none;
+    background-color: #C98E6A;
+    padding: 20px;
+    border-radius: 10px;
+    color: antiquewhite;
+    margin-top: 20px; 
+
+}
+.spotify-link:hover{
+    color: #C98E6A;
+    background-color: antiquewhite;
+   
+}
+.card{
+    margin: 0px auto;
+    padding: 20px 50px;
+    max-width: 60%;
+}
+.audio-divs{
+    margin-bottom: 50px;
+}
+.social-links{
+    text-decoration: none;
+    background-color: #C98E6A;
+  
+    border-radius: 10px;
+    color: antiquewhite;
+    margin: 5px; 
 }

@@ -14,11 +14,27 @@
 </head>
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <p class="navbar-brand"><img src="./src/Untitled design.svg" alt="" width="50px"></p>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link" href="./#about">About</a>
+                  <a class="nav-link" href="./">Tours</a>
+                  <a class="nav-link" href="./">Contacts</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     <h1>
         Little Mix
     </h1>
 
-    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/636/original/Main_Image.jpg?1678353388" width="500px" alt="Little Mix">
+    <img class="img-fluid" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/636/original/Main_Image.jpg?1678353388" width="500px" alt="Little Mix">
     <h6>
         <div>
             <strong>Founded</strong>: 2011
@@ -35,16 +51,16 @@
     </header>
     <section>
     </h6>
-    <p>Little Mix are a British girlgroup, formed on the eighth series of The X Factor UK. In 2011, the group rose to prominence after becoming the first group to win the series, and are regarded as the show's most successful winning act</p>
-    <img class="member" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/638/original/Perry.jpg?1678353443" title="Perry Edwards" alt="Perry Edwards" width="150px">
-    <img class="member" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/639/original/Jade.jpg?1678353457" title="Jade Thirlwall" alt="Jade Thirlwall" width="150px">
-    <img class="member" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/640/original/Leighanne.jpg?1678353465" title="Leighanne Pinnock" alt="Leighanne Pinnock" width="150px">
+    <p id="about">Little Mix are a British girlgroup, formed on the eighth series of The X Factor UK. In 2011, the group rose to prominence after becoming the first group to win the series, and are regarded as the show's most successful winning act</p>
+    <img class="img-fluid" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/638/original/Perry.jpg?1678353443" title="Perry Edwards" alt="Perry Edwards" width="150px">
+    <img class="img-fluid" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/639/original/Jade.jpg?1678353457" title="Jade Thirlwall" alt="Jade Thirlwall" width="150px">
+    <img class="img-fluid" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/640/original/Leighanne.jpg?1678353465" title="Leighanne Pinnock" alt="Leighanne Pinnock" width="150px">
     <p class="sm-col-6">Originally a four-piece group, the line up consisted of Leigh-Anne Pinnock, Jade Thirlwall, Perrie Edwards, and Jesy Nelson, before her departure in 2020. Known for their vocals and signature harmonies, they are cited for helping the girl band renaissance in the UK and for re-defining girl groups.</p>
     <p class="sm-col-6">Together Little Mix have achieved five UK number-one singles, "Cannonball"</audio> (2011), "Wings" (2012), "Black Magic" (2015), "Shout Out to My Ex" (2016), and "Sweet Melody" (2021). The group have released six studio albums DNA (2012), Salute (2013), Get Weird (2015), Glory Days (2016), LM5 (2018), and Confetti (2020), five which have been certified platinum by the BPI. Little Mix holds the record for having the highest chart entry for a debut album by British girl group in the US. They are also the first girl group to have five consecutive top-five albums in the UK, and in 2018, set a new record for the longest charting album by a girl group inside the top 40 of the UK Albums Chart.
     </p>
-    <div class="card">
+    <div class="card audio-divs">
     <h2>You can listen to the listed songs here!</h2>
-    <p class="audio-divs">
+    <p>
         <div><strong>Cannonball</strong><audio controls src="./src/Cannonball - Little Mix (Official Audio).mp3"> Cannonball</audio></div>
         <div><strong>Wings</strong><audio controls src="./src/Little Mix - Wings (Official Video).mp3">Wings</audio></div>
         <div><strong>Black Magic</strong><audio controls src="./src/Little Mix - Black Magic (Audio).mp3">Black Magic</audio></div>
@@ -54,9 +70,27 @@
     </div>
     </section>
     <article>
-            <a class="spotify-link" href="https://open.spotify.com/artist/3e7awlrlDSwF3iM0WBjGMp">Stream the latest albums here.</a>
-            <a class="latest-album" href="https://open.spotify.com/album/6XNrM2YkzSXyQ9hekFOgLN"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/635/original/Song_list.jpg?1678353367" alt="Between us" width="100px"></a>
+        <div><a class="spotify-link" href="https://open.spotify.com/artist/3e7awlrlDSwF3iM0WBjGMp">Stream the latest albums here.</a></div>
+        <div class="row mt-5"> 
+            <a class="col-4 img-fluid" href="https://open.spotify.com/album/6XNrM2YkzSXyQ9hekFOgLN"><img class="sm-col-6"  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/634/original/Between_us.jpg?1678353347s" alt="Between us" width="100px"></a>
+            <a class="col-4 img-fluid" href="https://open.spotify.com/album/0KDISpxSUWynoaqwEaEeX8"> <img class="sm-col-6" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/673/original/Little_Mix_-_Confetti.png?1678372384" alt="Confetti" width="100px"></a>
+            <a class="col-4 img-fluid" href="https://open.spotify.com/album/2IEbMNUOG5RnbwvzGMAf8Q"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/679/original/Little_Mix_%E2%80%93_LM5.png?1678372779" alt="LM5" width="100px"></a>
+        </div>
     </article>
+   
+        <form class="card mt-5 mb-5 personal-details">
+            <label for="text">Type Your Details Below</label>
+            <input class="mt-5" type="text" placeholder="Type Name Here" >
+            <input class="mt-5" type="email" placeholder="Type Email Here" id="email">
+            <input class="mt-5" type="submit" value="Submit">
+        </form>
+       <footer>
+        <div class="row p-5">
+            <a class="sm-col-3 social-links" href="https://www.youtube.com/channel/UCIvqWqjC4aLvp7zI8hzARrA">YouTube</a>
+            <a class="sm-col-3 social-links" href="https://www.instagram.com/LittleMix">Instagram</a>
+            <a class="sm-col-3 social-links" href="https://store.little-mix.com/?utm_source=website&utm_medium=organic&utm_campaign=LittleMix_BetweenUs_preorder&utm_content=release">Official Store</a>
+        </div>
+       </footer>
     <script src="./src/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>

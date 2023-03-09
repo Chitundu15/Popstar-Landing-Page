@@ -1,0 +1,40 @@
+body{
+    background-color:#fbf0e5;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    background-image: url(./Untitled\ design.svg);
+    background-size: 400px;
+    }
+section{
+    background-color: #fbf0e5;
+}
+.spotify-link{
+    text-decoration: none;
+    background-color: #C98E6A;
+    padding: 20px;
+    border-radius: 10px;
+    color: antiquewhite;    
+}
+.spotify-link:hover{
+    color: #C98E6A;
+    background-color: antiquewhite;
+}
+.card{
+    margin: 0px auto;
+    padding: 20px 50px;
+    max-width: 60%;
+}
+h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 100px;
+    color: #C98E6A;
+
+}
+h6{
+    text-align: left;
+    font-size: 8px;
+}
+article{
+    margin: 20px;
+}

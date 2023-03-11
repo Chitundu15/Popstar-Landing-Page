@@ -5,6 +5,10 @@ body{
     background-size: 400px;
     background-repeat: no-repeat;
     }
+   header{
+    background-color: #F6F6F4;
+   }
+
 section{
     background-color: #fbf0e5;
     background-image: url(./Untitled\ design.svg);
@@ -20,11 +24,19 @@ h1{
     font-family: 'Tilt Prism', cursive;
     font-size: 100px;
     color: #C98E6A;
+   
 
 }
 h6{
     text-align: left;
     font-size: 8px;
+}
+a{
+    color: #C98E6A;
+    text-decoration: none;
+}
+a:hover{
+    color: #e0a987;
 }
 .navbar-nav{
     color: #C98E6A;
@@ -53,8 +65,26 @@ h6{
 }
 .social-links{
     text-decoration: none;
-    background-color: #C98E6A;
     border-radius: 10px;
+    color:  #C98E6A;
+}
+#about{
+    text-align: center;
+}
+.hidden{
+    display: none !important;
+}
+section p{
+    text-align: left;
+}
+img{
+    box-shadow: black;
+}
+button{
+    background-color: #C98E6A;
     color: antiquewhite;
-    margin: 5px; 
+    border-width: 20px;
+    border: #b87144;
+    border-radius: 10px;
+    padding:10px;
 }
